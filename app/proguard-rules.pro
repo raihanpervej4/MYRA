@@ -1,0 +1,10 @@
+-keep class okhttp3.** { *; }
+-keep interface okhttp3.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keep class org.json.** { *; }
+-keepclassmembers class kotlinx.coroutines.** { *; }
+-dontwarn kotlinx.coroutines.**
+-keep class com.myra.assistant.service.** { *; }
+-keep class com.myra.assistant.ui.main.OrbAnimationView { *; }
+-keep class com.myra.assistant.ui.main.WaveformView { *; }
